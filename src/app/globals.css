@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainyourimg {
+  background-image: url("/images/yourtrustmainbg.svg");
+ 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.afterarrow {
+
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.bluebox {
+  z-index: 1;
+}
+/* .poppins-regular {
+  font-family: "Poppins", sans-serif;
+} */
+
+/* .saira {
+  font-family: "Saira", sans-serif;
+} */
+.poppins-regular {
+  font-family: var(--poppins-regular);
+}
+
+.saira {
+  font-family: var(--saira);
+}
+
+.collapse-arrow > .collapse-title:after {
+  content: url("/images/downarrow.svg");
+    rotate: -45deg;
+    
+    display: flex ;
+    justify-items: center;
+    align-items: center;
+}
