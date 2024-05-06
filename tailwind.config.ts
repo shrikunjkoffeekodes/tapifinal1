@@ -6,7 +6,6 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
-    
   ],
   theme: {
     extend: {
@@ -15,8 +14,16 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      // fontFamily: {
+      //   poppinsregular: ['var(--poppins-regular)'],
+      //   saira: ['var(--saira)'],
+      // }
+
+      // _______________________
+      // when used this poppinsregular used as a class and write like this => font.poppinsregular
     },
   },
-  plugins: [require("tailwindcss-animated"), require("daisyui")]
+  darkMode: ["variant", "&:not(.light *)"],
+  plugins: [require("tailwindcss-animated"), require("daisyui")],
 };
 export default config;

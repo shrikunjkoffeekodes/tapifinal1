@@ -23,6 +23,7 @@ function Navbar({
      // Initialize AOS
      AOS.init();
    }, []);
+  
   return (
     <nav  className={`bg-[#DAF1EB] py-4 px-4 w-full sticky top-0 z-50`}>
       <div className={`flex justify-between items-center  `}>
