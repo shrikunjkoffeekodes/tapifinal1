@@ -88,7 +88,6 @@ function Slidemultiple() {
           <Image src={icicimg} alt=""></Image>
         </div>
       </OwlCarousel>
-      ;
     </div>
   );
 }

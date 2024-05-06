@@ -466,7 +466,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-2">
-              <p className="text-[#032930] text-xl text-center poppins-regular font-bold">
+              <p className="text-[#032930]   text-xl text-center poppins-regular font-bold">
                 Step 01: <br /> Create Account
               </p>
               <p className="text-justify poppins-regular mt-2">
@@ -489,10 +489,10 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-2">
-              <p className="text-[#032930] text-xl text-center font-bold poppins-regular">
+              <p className="text-[#032930]  text-xl text-center font-bold poppins-regular">
                 Step 02: <br /> Detail Verification
               </p>
-              <p className="text-justify poppins-regular mt-2">
+              <p className="text-justify poppins-regular mt-2 ">
                 Lorem ipsum dolor sit amet consectetur. Id felis et ligula
                 aliquet tellus tortor lectus. Risus non ultrices cras dolor
                 ullamcorper cum porttitor egestas semper. Neque donec euismod
@@ -512,11 +512,11 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-2">
-              <p className="text-[#032930] text-xl text-center font-bold poppins-regular">
+              <p className="text-[#032930] text-xl  text-center font-bold poppins-regular">
                 Step 03:
                 <br /> Get Payment Gateways
               </p>
-              <p className="text-justify poppins-regular mt-2">
+              <p className="text-justify poppins-regular mt-2 ">
                 Lorem ipsum dolor sit amet consectetur. Id felis et ligula
                 aliquet tellus tortor lectus. Risus non ultrices cras dolor
                 ullamcorper cum porttitor egestas semper. Neque donec euismod

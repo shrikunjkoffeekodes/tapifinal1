@@ -12,11 +12,13 @@
 }
 
 .afterarrow {
-    
+
 }
 
 body {
   overflow-x: hidden;
+   background-color: #ffffff; /* Light background color */
+   color: #000000; /* Light text color */
 }
 
 .bluebox {
@@ -36,6 +38,8 @@ body {
 .saira {
   font-family: var(--saira);
 }
+
+
 
 .collapse-arrow > .collapse-title:after {
   content: url("/images/downarrow.svg");
