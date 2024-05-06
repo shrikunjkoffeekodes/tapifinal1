@@ -23,7 +23,7 @@ const config: Config = {
       // when used this poppinsregular used as a class and write like this => font.poppinsregular
     },
   },
-  darkMode: ["variant", "&:not(.light *)"],
+  darkMode: "class",  
   plugins: [require("tailwindcss-animated"), require("daisyui")],
 };
 export default config;
